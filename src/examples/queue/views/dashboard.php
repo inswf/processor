@@ -1,8 +1,8 @@
 <h1>Toro Queue</h1>
 
-<strong>Queue Size:</strong> <span id="size"><?= $stats['size']; ?></span> | 
-<strong>Total Sends:</strong> <span id="sends"><?= $stats['sends']; ?></span> |
-<strong>Total Receives:</strong> <span id="receives"><?= $stats['receives']; ?></span><br/>
+<strong>Queue Size:</strong> <span id="size"><?php $stats['size']; ?></span> | 
+<strong>Total Sends:</strong> <span id="sends"><?php $stats['sends']; ?></span> |
+<strong>Total Receives:</strong> <span id="receives"><?php $stats['receives']; ?></span><br/>
 
 <hr />
 
